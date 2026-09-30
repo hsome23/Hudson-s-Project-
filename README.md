@@ -23,16 +23,16 @@ MVP = Minimum Viable Product
 
 These are the main features we want working before adding anything extra.
 
-1. [Main Feature #1]
-2. [Main Feature #2]
-3. [Main Feature #3]
-4. [Main Feature #4]
+1. User sign in/Authentification
+2. Set up Profile (probably simple filters)
+3. Filtering through food items (Dining halls based on Purdue API)
+4. Dashboard (calories, graph of results!)
 
 ## ✨ Extra Features
 These are features we can add after the MVP works.
-1. [Extra Feature]
-2. [Extra Feature]
-3. [Extra Feature]
+1. External Database
+2. Use AI to personalize reccomendations
+3. Map Feature 
 
 ## 🛠️ Tech Stack
 
