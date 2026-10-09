@@ -95,3 +95,30 @@ USER --> FRONTEND --> BACKEND / API --> DATABASE --> BACKEND --> FRONTEND --> US
 - Improve design
 - Test the website
 - Deploy the website
+
+## Getting Started Guide 
+
+### Backend
+
+```
+cd server
+npm install   #updates all dependcies
+node main.js  #run the backend
+```
+### Frontend
+```
+cd frontend 
+npm install
+npm start
+```
+### DB
+```
+cd db
+sudo -i -u postgres  # switching to the correct user
+psql            # opens up the psql cli
+\dt             # show all avaible tables
+\d  <tablename>  # show data for a given table
+
+SELECT * FROM restaurants;
+# gets all rows from the table
+
